@@ -4,12 +4,6 @@ var count int
 var res int
 var t int
 
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
-
 func kthSmallest(root *TreeNode, k int) int {
 	t = k
 	count = 0
